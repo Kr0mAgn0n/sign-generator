@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <form class="form-horizontal" method="get" action="/generar">
+                <div class="form-group">
+                    <label for="titulo" class="control-label col-md-2">Título</label>
+                    <div class="col-md-10">    
+                        <select id="titulo" name="titulo" class="form-control">
+                            <option value="Sr.">Sr.</option>
+                            <option value="Srta.">Srta.</option>
+                            <option value="Sra.">Sra.</option>
+                            <option value="Lic.">Lic.</option>
+                            <option value="Ing.">Ing.</option>
+                            <option value="Mag.">Mag.</option>
+                            <option value="Dr.">Dr.</option>
+                            <option value="PhD">PhD</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="apellidos" class="control-label col-md-2">Apellidos</label>
+                    <div class="col-md-10">
+                        <input type="text" id="apellidos" name="apellidos" class="form-control" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="nombres" class="control-label col-md-2">Nombres</label>
+                    <div class="col-md-10">
+                        <input type="text" id="nombres" name="nombres" class="form-control" /> 
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="area" class="control-label col-md-2">Área</label>
+                    <div class="col-md-10">
+                        <input type="text" id="area" name="area" class="form-control" /> 
+                    </div>
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="oficina" class="control-label col-md-2">Oficina</label>
+                    <div class="col-md-10">
+                        <input type="text" id="oficina" name="oficina" class="form-control" /> 
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="labor" class="control-label col-md-2">Labor</label>
+                    <div class="col-md-10">
+                       <input type="text" id="labor" name="labor" class="form-control" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono" class="control-label col-md-2">Teléfono</label>
+                    <div class="col-md-10">
+                       <input type="text" id="telefono" name="telefono" class="form-control" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="correo" class="control-label col-md-2">Correo electrónico</label>
+                    <div class="col-md-10">
+                       <input type="email" id="correo" name="correo" class="form-control" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default">Generar firma</button>
+                </div>
+            </form>
+        </div>
+
+		<script
+			  src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
+</html>
